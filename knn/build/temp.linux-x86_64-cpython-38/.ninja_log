@@ -1,0 +1,4 @@
+# ninja log v5
+0	381	1704717231873010036	/home/jiyuan/tir_ws/src/graspness_/knn/build/temp.linux-x86_64-cpython-38/home/jiyuan/tir_ws/src/graspness_/knn/src/cuda/knn.o	c650a023faeb4366
+0	6602	1704717238097399289	/home/jiyuan/tir_ws/src/graspness_/knn/build/temp.linux-x86_64-cpython-38/home/jiyuan/tir_ws/src/graspness_/knn/src/cpu/knn_cpu.o	4104d41532de311
+0	11872	1704717243361729523	/home/jiyuan/tir_ws/src/graspness_/knn/build/temp.linux-x86_64-cpython-38/home/jiyuan/tir_ws/src/graspness_/knn/src/vision.o	720fa21ecbcc704a

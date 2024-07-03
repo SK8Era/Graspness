@@ -1,0 +1,12 @@
+# ninja log v5
+1	6483	1704718126084209501	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/group_points_gpu.o	a47ad2bbb2219dbd
+1	6544	1704718126180205917	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/interpolate_gpu.o	d9b291f53d25be7e
+1	8421	1704718128052136133	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/cylinder_query_gpu.o	65716da03493ab46
+0	8840	1704718128472120532	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/ball_query_gpu.o	7ca7fa3466a43012
+1	9067	1704718128700112064	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/sampling_gpu.o	3a74e3ac50866cc2
+1	11113	1704718130744036375	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/sampling.o	29f340852e1080fd
+0	11242	1704718130872031645	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/cylinder_query.o	e8b1dd8c5ee29f6a
+1	12246	1704718131879994476	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/group_points.o	b66c74c5ac64a923
+0	12843	1704718132475972549	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/ball_query.o	de7b4e6afe468cfd
+0	12991	1704718132623967107	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/interpolate.o	817b25282530237b
+0	14735	1704718134363903289	/home/jiyuan/tir_ws/src/graspness_/pointnet2/build/temp.linux-x86_64-cpython-37/_ext_src/src/bindings.o	20fc8b326e07c887

@@ -1,0 +1,39 @@
+###########conda env####################
+conda deactivate
+conda activate graspness
+source ./devel_isolated/setup.bash
+conda环境直接参考requirements.txt
+############ur robot###################
+
+roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=192.168.1.60 
+
+roslaunch ur3_moveit_config ur3_moveit_planning_execution.launch limited:=true
+
+roslaunch ur3_moveit_config moveit_rviz.launch config:=true
+
+############realsence camera##########
+
+#roslaunch realsense2_camera rs_camera.launch
+
+################servers###############
+
+rosrun ur_planning movetiServer.py
+#主要配置ur机械臂的控制部分，抓取服务端，负责接收抓取位姿并执行运动
+
+################网络###############
+
+python src/graspness/grasp_real.py
+
+#line22 加载模型
+#line156 抓取显示 
+#line162-199 抓取位姿转换
+#line201-202 抓取代码（ros/tcp控制）
+
+################UR_Robot.py###############
+
+#主要内容为真实机器人连接以及控制集成
+#ur_robot.grasp函数为move_j_p控制
+#ur_robot.grasp_ros函数抓取运动部分为movetiServer中抓取控制，其余为move_j_p控制
+
+
+抓取：首先启动真实机械臂，然后如果不使用ros控制的话直接启动grasp_real.py文件，如果使用ros启动moveit以及ur_planning
