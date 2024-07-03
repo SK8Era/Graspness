@@ -65,6 +65,10 @@ Testing examples are shown in [command_test.sh](command_test.sh), which contains
 
 If you need the trained weights, you can contact me directly.
 
+## Test in UR Robot with Realsense Camera
+```bash
+python grasp_real.py
+```
 ## Results
 Results "In repo" report the model performance of my results without collision detection.
 
